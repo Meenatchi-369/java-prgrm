@@ -1,5 +1,5 @@
 import java.util.*;
-class test{
+class prgm1{
 public static void main(String args[])
 {
 int a=10;
