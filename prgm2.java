@@ -3,12 +3,17 @@ class prgm2{
 public static void main(String args[])
 {
 Scanner scan =new Scanner(System.in);
-String name = scan.nextLine();
-int age = scan.nextInt();
-scan.nextLine();
-char letter = scan.next().charAt(0);
-System.out.println("my name is "+ name);
-System.out.println("my age is "+ age);
-System.out.print("The letter  is "+ letter);
+int a = scan.nextInt();
+int b = scan.nextInt();
+int c = scan.nextInt();
+int d=a+b+c;
+if(d==180)
+{
+System.out.print("Triangle can be formed");
+}
+else
+{
+   System.out.print("Triangle cannot be formed");
 }
 } 
+}
