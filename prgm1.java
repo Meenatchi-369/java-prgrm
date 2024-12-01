@@ -1,5 +1,5 @@
 import java.util.*;
-class prgm2{
+class prgm1{
 public static void main(String args[])
 {
 Scanner scan =new Scanner(System.in);
