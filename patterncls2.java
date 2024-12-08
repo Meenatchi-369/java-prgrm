@@ -1,16 +1,16 @@
 import java.util.*;
-class pattercode1
+class patterncls2
 {
     public static void main(String [] args)
     {
-        int n=5;
-        for(int i=1; i<=n; i++)
+        int n=6;
+        for(int i=6; i>=1;i--)
         {
-            for (int j=1; j<=n; j++)
+            for(int j=i; j>=1; j--)
             {
-                System.out.print("*");
+                System.out.print(j);
             }
-             System.out.println(" ");
+            System.out.println(" ");
         }
     }
 }/*Write a Program which takes input n and prints the below pattern and upload the code to your github repo.
@@ -25,13 +25,13 @@ n = 4
 
 Expected output:
 
-****
+4321
 
-***
+321
 
-**
+21
 
-*
+1
 
 
 
@@ -41,20 +41,19 @@ Input:
 
 n= 6
 
-******
+654321
 
-*****
+54321
 
-****
+4321
 
-***
+321
 
-**
+21
 
-*
+1
 
 
 Mark Incomplete
 
-Continue
 */
