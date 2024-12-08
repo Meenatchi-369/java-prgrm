@@ -13,4 +13,42 @@ class patterncode8
             System.out.println(" ");
         }
     }
-}
+}/*Sample 1:
+
+Input:
+
+n = 4
+
+Expected output:
+
+*
+
+**
+
+***
+
+****
+
+
+
+Sample 2
+
+Input:
+
+n= 6
+
+*
+
+**
+
+***
+
+****
+
+*****
+
+******
+
+
+Complete & continue
+*/
