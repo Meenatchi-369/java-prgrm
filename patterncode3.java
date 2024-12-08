@@ -1,5 +1,5 @@
 import java.util.*;
-class main
+class patterncode3
 {
     public static void main(String [] args)
     {
