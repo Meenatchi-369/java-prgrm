@@ -3,18 +3,17 @@ class main2
 {
 public static void main(String[] args) 
 {
-        int n=23423573, count=0;
-        while(n>0){
-             int ld = n%10;
-            if(ld%2==0)
-            {
-            count = count + 1;
+     int n=17;
+    for(int x=2;x<=n;x++){
+        int flag = 0;
+        for(int i=2;i<x;i++){
+            if(x%i==0){
+                flag = 1;
             }
-            if(n==ld){
-                System.out.println(ld);
-            }
-                                    n=n/10;
         }
-        System.out.println(count);
+        if(flag==0){
+            System.out.println(x);
+        }
+    }
     }
 }
