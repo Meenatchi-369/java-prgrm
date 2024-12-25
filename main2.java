@@ -3,17 +3,15 @@ class main2
 {
 public static void main(String[] args) 
 {
-     int n=17;
-    for(int x=2;x<=n;x++){
-        int flag = 0;
-        for(int i=2;i<x;i++){
-            if(x%i==0){
-                flag = 1;
+ int n=6;
+        for(int i=1; i<=n; i++)
+        {
+            for(int j=1; j<=i; j++)
+            {
+                System.out.print(i);
             }
+            System.out.println(" ");
+
         }
-        if(flag==0){
-            System.out.println(x);
-        }
-    }
-    }
+}
 }

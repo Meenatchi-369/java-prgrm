@@ -6,7 +6,7 @@ class firstandlastdigit
          int n=12345, count=0;
          int first=0;
          int last=0;
-         System.out.println("Last digit :" +n%10);
+         last=n%10;
          while(n>0)
          {
             int fd=n%10;
@@ -18,6 +18,8 @@ class firstandlastdigit
             }
                    
                    }
+                            System.out.println("Last digit :" +last);
+
 
     }
 }
